@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login teste</title>
+</head>
+<body> 
+    <style>
+        *{
+            margin: 0;
+        }
+        body{
+            background-color: rgb(218, 218, 218);
+        }
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        input{
+            width: 270px;
+            height: 40px;
+            border-radius: 10px;
+            border: none;
+        }
+        .container{
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(168, 168, 168);
+            width: 350px;
+            height: 250px;
+            display: flex;
+            margin: 0 auto;
+            top: 50%;
+            left: 50%;
+            transform: translate(-0%, 100%);
+            border-radius: 20px;
+            gap: 10px;
+            padding: 25px;
+            
+        }
+        button{
+            border: none;
+            width: 100px;
+            height: 35px;
+            border-radius: 15px;
+        }
+        button:hover{  /*NAO COLOCA ESPAÇO*/
+            background-color: rgb(255, 85, 73);
+            color: aliceblue;
+            cursor: pointer; /*identificar botão*/
+            transform: scale(1.10) ;
+        }
+
+    </style>
+    <div class="container">
+    <center>
+        <h1>Bem vindo!</h1><br>
+        <input type="user"><br><br>
+        <input type="password"><br><br>
+        <button>Entrar</button><br><br>
+        <a href="" style="font-size: large; font-family: Arial, Helvetica, sans-serif;">Recuperar senha</a>
+        
+    </center>
+    </div>
+</body>
+</html>
