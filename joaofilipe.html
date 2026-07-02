@@ -7,21 +7,58 @@
 </head>
 <body> 
     <style>
+        *{
+            margin: 0;
+        }
         body{
-            background-color: antiquewhite;
+            background-color: rgb(158, 158, 158);
         }
         h1{
             font-family: Arial, Helvetica, sans-serif;
+            
         }
         input{
-            width: 70px;
+            width: 250px;
+            height: 40px;
+            border-radius: 10px;
+            border: none;
+        }
+        .container{
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(87, 87, 87);
+            width: 350px;
+            height: 250px;
+            display: flex;
+            margin: 0 auto;
+            top: 50%;
+            left: 50%;
+            transform: translate(-0%, 100%);
+            border-radius: 20px;
+            gap: 10px;
+            padding: 25px;
+        }
+        button{
+            border: none;
+            width: 100px;
+            height: 35px;
             border-radius: 15px;
         }
+        button:hover{
+            background-color: rgb(170, 235, 235);
+            color: aliceblue;
+            cursor: pointer;
+            transform: scale(1.05) ;
+        }
     </style>
+    <div class="container">
     <center>
-        <h1>Google ruim</h1>
-        <input type="search"><br>
-        
+        <h1>Login</h1><br>
+        <input type="user"><br><br>
+        <input type="password"><br><br>
+        <button>Entrar</button>
     </center>
+
+    </div>
 </body>
 </html>
